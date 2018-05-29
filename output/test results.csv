@@ -1,0 +1,13 @@
+DT,seg,0.96969697,{'DT__class_weight': 'balanced', 'DT__max_depth': 13, 'DT__min_samples_leaf': 1}
+Boost,seg,0.97979798,{'Boost__base_estimator__class_weight': 'balanced', 'Boost__base_estimator__max_depth': 7, 'Boost__n_estimators': 50}
+KNN,seg,0.972582973,{'KNN__metric': 'manhattan', 'KNN__n_neighbors': 4, 'KNN__weights': 'distance'}
+ANN,seg,0.949494949,{'MLP__hidden_layer_sizes': (19,), 'MLP__learning_rate_init': 0.10000000000000001}
+SVM_LIN,seg,0.936507937,{'SVM__C': 10.0},,
+SVM_RBF,seg,0.96969697,{'SVM__C': 1000.0},,
+DT,poker,0.197194886,{'DT__class_weight': 'balanced', 'DT__max_depth': 12, 'DT__min_samples_leaf': 9}
+SVM_LIN,poker,0.100443572,{'SVM__C': 1000.0},,
+KNN,poker,0.186045454,{'KNN__metric': 'manhattan', 'KNN__n_neighbors': 1, 'KNN__weights': 'uniform'}
+SVM_RBF,poker,0.187595809,{'SVM__C': 100.0, 'SVM__max_iter': 3000},
+Boost,poker,0.201039238,{'Boost__base_estimator__class_weight': 'balanced', 'Boost__base_estimator__max_depth': 12, 'Boost__n_estimators': 1}
+ANN,poker,0.156361759,{'MLP__hidden_layer_sizes': (30, 30), 'MLP__learning_rate_init': 0.017012542798525893}
+DT,seg,0.9696969696969697,{'DT__class_weight': 'balanced', 'DT__max_depth': 13, 'DT__min_samples_leaf': 1}
